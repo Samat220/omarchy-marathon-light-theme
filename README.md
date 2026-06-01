@@ -109,10 +109,10 @@ Same Marathon neon palette in both — only the background flips (void black ↔
 - `5-editorial-face.jpg` — Acid-green/blue face bust on white with registration marks.
 - `6-runner-cyan.jpg` — Bright cyan Runner in motion.
 - `7-runner-magenta-pop.jpg` — Magenta-helm Runner on cyan.
-- `8-green-pod-grid.jpg` — Acid-green pod on a light grid.
+- `8-green-pod-grid.png` — Acid-green pod on a light grid.
 - `9-fallen-runner-milk.jpg` — Fallen Runner in white liquid with blue bleed.
-- `10-magenta-runner-wide.jpg` — Magenta Runner on light blue (ultrawide).
-- `11-green-circle.jpg` — Green containment-circle figure.
+- `10-magenta-runner-wide.png` — Magenta Runner on light blue (ultrawide).
+- `11-green-circle.png` — Green containment-circle figure.
 
 Cycle wallpapers with `Super + Ctrl + Space`.
 
