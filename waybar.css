@@ -1,0 +1,11 @@
+@define-color foreground #1F1F1F;
+@define-color background #FAFAFA;
+
+/* Marathon-Light — Runner-magenta accent, near-white text on the solid fill */
+@define-color accent    #EA027E;
+@define-color on-accent #FAFAFA;
+
+/* Light frosted bar with dark ink on cream paper */
+@define-color bar    #FFFFFF;
+@define-color glass  #1F1F1F;
+@define-color edge   #1F1F1F;
