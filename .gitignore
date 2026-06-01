@@ -1,0 +1,16 @@
+# Dev artifacts
+.superpowers/
+*.tar.gz
+*.swp
+.DS_Store
+
+# Belt-and-suspenders: commercial / trial fonts must never land in this repo.
+# Both PP Fraktion's free-personal-use EULA and KH Type's trial EULA forbid
+# redistribution. Fonts live at ~/.local/share/fonts/marathon/ on this machine
+# and stay there.
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.eot
+fonts/

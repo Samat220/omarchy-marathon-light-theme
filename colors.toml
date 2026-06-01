@@ -1,0 +1,29 @@
+# Marathon-Light (Bungie 2026) — FULL Marathon neon palette
+# Both normal and bright slots use the authentic Marathon hex values.
+# Same palette as the dark theme — only the background differs.
+
+accent             = "#EA027E"   # Runner signal magenta — primary
+cursor             = "#EA027E"
+foreground         = "#1F1F1F"   # dark grey ink
+background         = "#FAFAFA"   # near-white
+selection_foreground = "#FAFAFA"
+selection_background = "#EA027E"
+
+# ANSI normal — full Marathon neon palette
+color0  = "#0D1017"   # black — deep void
+color1  = "#EA027E"   # red — Runner signal magenta
+color2  = "#C2FE0B"   # green — Marathon acid yellow-green (PRIMARY)
+color3  = "#FF5500"   # yellow — Marathon hot orange warning
+color4  = "#3601FB"   # blue — Marathon corporate violet
+color5  = "#EA027E"   # magenta — Runner signal
+color6  = "#01FFFF"   # cyan — Marathon neon scan readout
+color7  = "#1F1F1F"   # white slot — dark grey ink
+# ANSI bright — boosted Marathon variants
+color8  = "#3D3D3D"   # bright black — readable comments grey
+color9  = "#FF3399"   # bright red — hot pink alert
+color10 = "#D4FF0D"   # bright green — boosted acid yellow
+color11 = "#FF7733"   # bright yellow — warm orange highlight
+color12 = "#6644FF"   # bright blue — lifted violet
+color13 = "#FF44CC"   # bright magenta — vivid pink
+color14 = "#44FFEE"   # bright cyan — pale scan green
+color15 = "#000000"   # bright white — pure black

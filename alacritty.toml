@@ -1,0 +1,61 @@
+# Marathon-Light — alacritty colors
+# Vibrant Marathon palette on near-white. Normal slots darkened for usability
+# as backgrounds; bright slots carry full neon Marathon hues.
+
+[colors.primary]
+background = "#FAFAFA"
+foreground = "#1F1F1F"
+
+[colors.cursor]
+text = "#FAFAFA"
+cursor = "#EA027E"
+
+[colors.vi_mode_cursor]
+text = "#FAFAFA"
+cursor = "#EA027E"
+
+[colors.search.matches]
+foreground = "#FAFAFA"
+background = "#C04000"
+
+[colors.search.focused_match]
+foreground = "#FAFAFA"
+background = "#D7003D"
+
+[colors.footer_bar]
+foreground = "#FAFAFA"
+background = "#1F1F1F"
+
+[colors.selection]
+text = "#FAFAFA"
+background = "#EA027E"
+
+[colors.normal]
+black = "#1F1F1F"
+red = "#D7003D"
+green = "#5B9F00"
+yellow = "#C04000"
+blue = "#3601FB"
+magenta = "#EA027E"
+cyan = "#008B8B"
+white = "#2D2D2D"
+
+[colors.bright]
+black = "#3D3D3D"
+red = "#FF3399"
+green = "#C2FE0B"
+yellow = "#FF5500"
+blue = "#6644FF"
+magenta = "#FF44CC"
+cyan = "#01FFFF"
+white = "#000000"
+
+[colors.dim]
+black = "#3D3D3D"
+red = "#A50230"
+green = "#3F7000"
+yellow = "#8E2D00"
+blue = "#2A01C8"
+magenta = "#A0025A"
+cyan = "#005F5F"
+white = "#3D3D3D"
