@@ -94,11 +94,27 @@ Same Marathon neon palette in both — only the background flips (void black ↔
 | `chromium.theme` | Browser frame color |
 | `icons.theme` | `Yaru-magenta` GTK icon variant |
 | `keyboard.rgb` | `ea027e` for openrgb keyboard backlight |
-| `backgrounds/` | 5 original wallpapers (Runner-poster aesthetic) |
+| `backgrounds/` | 12 wallpapers — 5 original + 7 official Marathon (© Bungie) |
 | `unlock.png` | Plymouth boot banner (800×188) |
 | `preview.png` | Desktop preview shown in the theme picker |
 | `preview-unlock.png` | Lock screen preview shown in theme picker |
 | `apply-marathon-font.sh` | Opt-in helper to apply a Marathon-feeling mono font |
+
+## Backgrounds
+
+**Original generated wallpapers** — free to use, modify, redistribute: `0-editorial-tauceti`, `1-runner-mark`, `2-swiss-07`, `3-magenta-circle`, `4-readout`.
+
+**Official Marathon art** — © Bungie, promotional/press art included for fan use (see [License](#license)):
+
+- `5-editorial-face.jpg` — Acid-green/blue face bust on white with registration marks.
+- `6-runner-cyan.jpg` — Bright cyan Runner in motion.
+- `7-runner-magenta-pop.jpg` — Magenta-helm Runner on cyan.
+- `8-green-pod-grid.jpg` — Acid-green pod on a light grid.
+- `9-fallen-runner-milk.jpg` — Fallen Runner in white liquid with blue bleed.
+- `10-magenta-runner-wide.jpg` — Magenta Runner on light blue (ultrawide).
+- `11-green-circle.jpg` — Green containment-circle figure.
+
+Cycle wallpapers with `Super + Ctrl + Space`.
 
 ## Credits
 
@@ -107,4 +123,4 @@ Same Marathon neon palette in both — only the background flips (void black ↔
 
 ## License
 
-MIT for the theme files. Wallpapers are original generated artwork — free to use, modify, and redistribute.
+MIT for the theme config files. The `0-`–`4-` wallpapers are original generated artwork — free to use, modify, and redistribute. The remaining wallpapers (`5-` onward) are official Marathon promotional art, **© Bungie**, included for personal/fan use only and **not** covered by the MIT license. Marathon is a trademark of Bungie; this is an unaffiliated fan tribute.
