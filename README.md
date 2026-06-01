@@ -2,9 +2,13 @@
 
 An Omarchy light theme inspired by Bungie's **Marathon (2026)** — the branded marketing aesthetic (Runner posters, marathonthegame.com) rendered as a system theme.
 
-Warm cream paper, Runner signal magenta as primary accent, near-black ink. The sibling of [`omarchy-marathon-theme`](https://github.com/samatramazan/omarchy-marathon-theme) (the dark in-game variant).
+Near-white paper, Runner signal magenta as primary accent, dark grey ink, and the full Marathon neon palette on top. The sibling of [`omarchy-marathon-theme`](https://github.com/Samat220/omarchy-marathon-theme) (the dark in-game variant).
 
-> Looking for the dark variant? → [**omarchy-marathon-theme**](https://github.com/samatramazan/omarchy-marathon-theme)
+![Marathon Light theme — desktop preview](./preview.png)
+
+**On Omarchy and want the *branded* Marathon look?** Two commands (below) and your terminal, editor, waybar, and desktop flip to Runner-magenta-on-paper — cycle the five original Runner-poster wallpapers with `Super + Ctrl + Space`.
+
+> Looking for the dark variant? → [**omarchy-marathon-theme**](https://github.com/Samat220/omarchy-marathon-theme)
 > Acid yellow-green on void black — the in-game Marathon look.
 
 ## Palette
@@ -12,21 +16,21 @@ Warm cream paper, Runner signal magenta as primary accent, near-black ink. The s
 | Role | Hex | Description |
 |------|-----|-------------|
 | Accent | `#EA027E` | Runner signal magenta — **primary** in light mode |
-| Background | `#EFEAD8` | Warm cream / printed paper |
-| Foreground | `#0D1017` | Near-black ink |
-| Green (secondary) | `#6B9000` | Darkened acid — secondary success signal |
-| Violet | `#2A01C8` | Darkened corporate violet |
-| Cyan | `#008B8B` | Darkened scan readout |
-| Orange | `#D14400` | Burnt orange warning |
+| Background | `#FAFAFA` | Near-white paper |
+| Foreground | `#1F1F1F` | Dark grey ink |
+| Green | `#C2FE0B` | Marathon acid yellow-green — secondary signal |
+| Violet | `#3601FB` | Corporate faction violet |
+| Cyan | `#01FFFF` | Neon scan readout |
+| Orange | `#FF5500` | Hot orange warning |
 
 Full ANSI palette in [`colors.toml`](./colors.toml).
 
-> **Note:** Magenta `#EA027E` is identical in both Marathon themes — it's the brand-defining color, shared by dark and light.
+> **Note:** This is the *full* Marathon neon palette — the same green/violet/cyan/orange as the dark theme. Only the background (near-white vs void black) and ink differ. Magenta `#EA027E` is the brand-defining accent in both.
 
 ## Install
 
 ```bash
-omarchy theme install https://github.com/samatramazan/omarchy-marathon-light-theme.git
+omarchy theme install https://github.com/Samat220/omarchy-marathon-light-theme.git
 omarchy theme set marathon-light
 ```
 
@@ -63,12 +67,12 @@ Marathon also uses **Shapiro** (display), **KH Interference**, and **Ivy Presto 
 
 ## Why a light Marathon theme?
 
-Bungie's Marathon (2026) has two visual moods:
+Bungie's Marathon (2026) has two visual moods, and these themes carry one neon palette across both:
 
-1. **In-game / void** — acid yellow-green on void black. Captured by the [dark theme](https://github.com/samatramazan/omarchy-marathon-theme).
-2. **Branded marketing** — cream paper, magenta-on-cream typographic statements, Swiss-grid editorial layouts. The Runner faction posters and marathonthegame.com site. Captured by **this theme**.
+1. **In-game / void** — the Marathon neon palette on void black. Captured by the [dark theme](https://github.com/Samat220/omarchy-marathon-theme).
+2. **Branded marketing** — the same neon palette on near-white paper: magenta-on-paper typographic statements, Swiss-grid editorial layouts, the Runner faction posters and marathonthegame.com site. Captured by **this theme**.
 
-The two themes aren't a light/dark version of the same palette — they're two sides of the same brand. Magenta `#EA027E` is the only color identical in both.
+Same Marathon neon palette in both — only the background flips (void black ↔ near-white) and the ink with it. Magenta `#EA027E` stays the brand-defining accent throughout.
 
 ## Art direction
 
@@ -86,11 +90,13 @@ The two themes aren't a light/dark version of the same palette — they're two s
 | `neovim.lua` | LazyVim spec: tokyonight-day base + Marathon Light palette overrides |
 | `vscode.json` | Recommends Bearded Theme Vivid Light as closest match |
 | `hyprland.conf` | Magenta active window borders |
+| `waybar.css` | Status bar — light frosted bar, solid magenta active workspace |
 | `chromium.theme` | Browser frame color |
 | `icons.theme` | `Yaru-magenta` GTK icon variant |
 | `keyboard.rgb` | `ea027e` for openrgb keyboard backlight |
 | `backgrounds/` | 5 original wallpapers (Runner-poster aesthetic) |
 | `unlock.png` | Plymouth boot banner (800×188) |
+| `preview.png` | Desktop preview shown in the theme picker |
 | `preview-unlock.png` | Lock screen preview shown in theme picker |
 | `apply-marathon-font.sh` | Opt-in helper to apply a Marathon-feeling mono font |
 
